@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C852E234-68A3-4770-AEE4-8B8E56B803D7}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C852E234-68A3-4770-AEE4-8B8E56B803D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MacKong" ID="{9841CD40-DB45-412A-8D5D-8D2392160E18}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Mx_Nivel_SW" ID="{D0376844-DFB8-4045-AE81-4947664FD1EE}" WorkUnitID="{D5A30BA4-7DCF-4103-B7F2-FC790C751CC7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Mx_Nivel_SW" ID="{2D634308-A6B4-4BF7-AAFD-1FAF09AF30E4}" WorkUnitID="{D5A30BA4-7DCF-4103-B7F2-FC790C751CC7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

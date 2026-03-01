@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="133">
+	<ValidationCacheItem File="C:\Users\maxim\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1771717357" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Attenuations\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Attenuations\Factory Attenuations.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Busses\Default Work Unit.wwu" DateLow="1771717356" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\Ambient\Ambient.wwu" DateLow="1770680280" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\Default Work Unit.wwu" DateLow="1771193928" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\Factory Soundseed Air Objects.wwu" DateLow="1770676165" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\Factory Synth One.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\MX\Mx.wwu" DateLow="1770680780" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\MX\Mx_WU.wwu" DateLow="1771717356" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\SFX\Sfx.wwu" DateLow="1770688997" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Containers\SFX\Sfx_WU.wwu" DateLow="1771633563" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Control Surface Sessions\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Conversion Settings\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Devices\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\DKKong_Integration.maxim.wsettings" DateLow="1771717357" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\DKKong_Integration.wproj" DateLow="1770722238" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Effects\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Effects\Factory Effects.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Effects\Factory Mastering Suite.wwu" DateLow="1770676163" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Effects\Factory Reflect Physically-Based.wwu" DateLow="1770676164" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Effects\Factory Reflect.wwu" DateLow="1770676164" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Events\Default Work Unit.wwu" DateLow="1771500413" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Game Parameters\Default Work Unit.wwu" DateLow="1771627706" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1770676165" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Metadata\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Mixing Sessions\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Modulators\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Presets\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Presets\Factory Reflect Physically-Based.wwu" DateLow="1770676164" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Presets\Factory Reflect.wwu" DateLow="1770676164" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Presets\Factory Spatial Audio.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Queries\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Queries\Factory Queries.wwu" DateLow="1770676126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Sidechain Mixes\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\SoundBanks\Default Work Unit.wwu" DateLow="1770680937" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1771501121" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\States\Default Work Unit.wwu" DateLow="1771593751" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Switches\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Triggers\Default Work Unit.wwu" DateLow="1771593751" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Virtual Acoustics\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKKong_Integration\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1770676126" DateHigh="0"/>
+</ValidationCache>

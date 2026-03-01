@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{E71764D4-E6FC-487E-92CD-0CC8BBD9047A}" WorkUnitID="{2172E217-F2D5-4F56-B0FB-E1EEB3865B55}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{7E195EB0-2058-4F8F-A655-9BAB5EA4DE03}" ShortID="336038509">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="Vol_Mx" ID="{1FB44714-84BC-44E6-A70D-CDAD59F3EE8C}" WorkUnitID="{542F9408-C9D5-43D9-AFE8-B6DE4E5C5204}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{B59287A5-4D10-41F7-8CEA-51BE7F82A9EC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Sfx_AudioBus" ID="{E4DC1899-A94D-426C-BC67-F5056C1FFFDB}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{E71764D4-E6FC-487E-92CD-0CC8BBD9047A}" WorkUnitID="{2172E217-F2D5-4F56-B0FB-E1EEB3865B55}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{D6387AA3-3CCD-4F55-A3BB-8BBF8634D724}" ShortID="397336722">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="Vol_Sfx" ID="{88DB602E-F6A1-43A1-A7F5-24467B4B7EFF}" WorkUnitID="{542F9408-C9D5-43D9-AFE8-B6DE4E5C5204}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{ED535484-0F6A-41DC-9B66-3FC7B00CD55F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

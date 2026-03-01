@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Mx_WU" ID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Mx_Nivel_SW" ID="{1AA5BF1C-7237-4598-A4E3-2F15AFADB2E1}" ShortID="327715859">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="103"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{21C6E341-DC3F-46C4-882F-44AD5C488B65}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F5B6F5F5-47CE-47C8-9FC9-F24EE6B67324}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C298595F-D275-4D78-A9F5-549DD967576C}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Mx_Lose" ID="{C7EA6BDD-8A0A-4FB5-9759-6093C81AC3AC}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{643D538F-4280-49C9-828B-F6E5BDF3136E}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.6"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{E7D57374-3DE7-41F5-85E7-4FEBA3690052}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{D5D8688C-DD75-40BD-87E8-308D090C2B4C}">
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Mx_Win" ID="{0AE31A12-ACB1-408D-AECC-00370BAC54EA}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{33ADDAAB-0546-4250-B7EB-2E8C2A331B69}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.2"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{AC432E6B-D7F8-43ED-8366-B7DF12B8AD70}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Mx_Lose" ID="{C7EA6BDD-8A0A-4FB5-9759-6093C81AC3AC}" ShortID="832024541">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="98"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{69CFD28D-2DF9-4FF3-A6A5-CDA027A6BF76}" ShortID="176077186">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{58016BF1-60FC-4A1A-8DF4-71280631E0ED}" ShortID="154907218">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{41254EB2-8236-46CD-90F4-197B8FB61E82}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{BEA4B0B8-729D-4405-BF79-6102BEDE713D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{B527B27B-241E-45B4-B901-AC0C9822BE2B}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{41254EB2-8236-46CD-90F4-197B8FB61E82}" ShortID="319336334">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9795.91836734694"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{292C33F3-AC1A-44F6-96FE-921AB899554F}" ShortID="450762598">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{B8B60A3E-DBCA-4C4A-9E69-D9EF0264104B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{F56E0428-9F4A-4A27-A2B2-7D4795CB6B17}">
+													<Language>SFX</Language>
+													<AudioFile>Mx_MacKong_LoserFull_98BPM4-4_4M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926869516"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<MusicTrackSequence Name="" ID="{5E432A61-B9B8-4711-A9CD-D85B063C4DDE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<MusicClip Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{3BDB5839-C303-47AE-A809-D1C308ED6CF8}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="9795.91836734694"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Mx_MacKong_LoserFull_98BPM4-4_4M" ID="{F56E0428-9F4A-4A27-A2B2-7D4795CB6B17}"/>
+																</MusicClip>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<MusicCue Name="Entry Cue" ID="{C9ABD11C-A07D-4850-B20C-C0202432877D}"/>
+											<MusicCue Name="Exit Cue" ID="{FE5C36F0-88CF-4751-B9B9-328A0A31BFD2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="9795.91836734694"/>
+												</PropertyList>
+											</MusicCue>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mx_Win" ID="{0AE31A12-ACB1-408D-AECC-00370BAC54EA}" ShortID="106261890">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="110"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{70DB4800-7088-421E-BEBC-900965F1E326}" ShortID="489125665">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{DDFE4D09-3A35-4C7E-A850-8FE43C25911D}" ShortID="454574465">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{67450309-31AE-4B4D-903B-D6C6C198596A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{6C9A636D-7E5E-4C13-90F6-523054064BEE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{A7C446AD-1191-4EDE-A3A0-9F881BE77B93}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{67450309-31AE-4B4D-903B-D6C6C198596A}" ShortID="323601400">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="34909.0929705215"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{7B5A0835-57C7-4472-A847-FDFAFED86592}" ShortID="1039847433">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5BD89F54-F31A-402B-9C3A-0BDECA6393FA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{395A5D50-D550-4843-839F-4081CC9144A3}">
+													<Language>SFX</Language>
+													<AudioFile>Mx_MacKong_WinFull_110BPM_4-4_16M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="894131647"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<MusicTrackSequence Name="" ID="{54E1596C-49AF-4C1A-B5E4-088C11ECC424}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<MusicClip Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{89F7880F-DE61-4AF5-8056-0C791457104A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="34909.0929705215"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Mx_MacKong_WinFull_110BPM_4-4_16M" ID="{395A5D50-D550-4843-839F-4081CC9144A3}"/>
+																</MusicClip>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<MusicCue Name="Entry Cue" ID="{7AE48516-B02E-46AD-89F1-017914B7A600}"/>
+											<MusicCue Name="Exit Cue" ID="{32870F8B-27B1-48EF-BE24-408128DB799E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="34909.0929705215"/>
+												</PropertyList>
+											</MusicCue>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicSwitchContainer Name="Mx_Gameplay_SW" ID="{332635DE-0B1C-40F0-BCCA-8BF70DF02C33}" ShortID="1004659941">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="103"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{DC3EA732-1D3C-4884-9EEA-B695F74D7430}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{4B660D16-2AA8-47AE-A619-5980F0917484}">
+													<PropertyList>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{47F0134F-8044-4843-BA69-4876D483EF8F}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL03" ID="{EDDD7EF7-C03B-41C8-8401-E8A1880E201D}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{F195116D-5705-40F4-8C3B-6710679F7E9E}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL03" ID="{EDDD7EF7-C03B-41C8-8401-E8A1880E201D}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{1E2A6531-87D8-4B25-9D3C-FBE39B8C8E8C}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{B32F0C5F-5F22-4077-9F89-0F25FD3037EB}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{604F7C9D-872C-4372-88B5-D83B2B0D1151}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL00" ID="{46F3273F-7145-49EA-8B09-A048141ECCA2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{5CAF67A6-5F0B-4926-8E3C-83601A435478}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+														<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Mx_PL00" ID="{46F3273F-7145-49EA-8B09-A048141ECCA2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<TransitionObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="Mx_PL03" ID="{EDDD7EF7-C03B-41C8-8401-E8A1880E201D}" ShortID="826043764">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="101"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{436DE09B-548D-4D24-B823-6B75F72B6EFA}" ShortID="929541327">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{63661DD9-ADBF-490D-8A07-ED9BF539BDAD}" ShortID="777445630">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Mx_McKongo_Segment_103" ID="{30912134-1AF0-428B-B76B-83D248C55240}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FE3D2518-F05B-4C70-9AD0-9F844F808B6B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{3C58F3D4-1114-4D51-B60C-5FD493858AD0}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Mx_McKongo_Segment_103" ID="{30912134-1AF0-428B-B76B-83D248C55240}" ShortID="942944874">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="EndPosition" Type="Real64" Value="19805.8351495938"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="103"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{ADABA9C4-694A-4892-9DC2-EE5E0C243088}" ShortID="746196279">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{944B46CC-AB05-475F-8790-6D35B295C50C}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{DC38ED66-D439-47E0-B121-A1680F87255C}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Base_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74889908"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{04E23D0B-FD58-4F2E-A988-8E0076C9B455}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{C281BA51-AB1B-4D00-9479-4F1A969D3503}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{DC38ED66-D439-47E0-B121-A1680F87255C}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{FD41D23E-4A5A-43BD-8994-DB885CD2FC91}" ShortID="209071209">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{7952D32D-AC69-4135-8700-85057A89F2D6}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{F039BA67-F3F7-4D1D-9E9A-FB7CAB3F31A1}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Wood_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="46179992"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{37CA2281-13F7-4FBA-BB1E-D5F7BA6F69B7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{CA35E223-0833-40F4-8747-86BBFD449927}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{F039BA67-F3F7-4D1D-9E9A-FB7CAB3F31A1}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{0BB40C79-1651-4741-BFFE-A912A34E8194}" ShortID="524615287">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="MusicTrackType" Type="int16" Value="1"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{EC80F225-1A04-4435-9478-C5B422E49124}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{520B745F-A051-4891-9435-CE5FE03DCAB4}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Triangulo1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1005393918"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{B481C045-EE3D-4F97-AC6D-F7813BE7FA52}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Triangulo2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="949143598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{210577C0-E87A-420F-90A5-A97029937F0A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{4CD879DA-377A-4C68-B605-AEDAAA829DCB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{520B745F-A051-4891-9435-CE5FE03DCAB4}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{45E48E5D-11DA-456A-8122-74BDAA815C31}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{B481C045-EE3D-4F97-AC6D-F7813BE7FA52}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+															<MusicTrackSequence Name="" ID="{342EBFF1-4647-4FD7-9A5D-860CD26D64E3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{BC8B0694-3FF8-44ED-9AEE-789B57E618E4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{520B745F-A051-4891-9435-CE5FE03DCAB4}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{2D6F819C-E5E9-49B9-924F-F56A62A3A8FA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{B481C045-EE3D-4F97-AC6D-F7813BE7FA52}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Cuica1_103BPM4-4_8M" ID="{EC74BEC5-CDAB-4925-8D63-D2BD7F138388}" ShortID="667664387">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="MusicTrackType" Type="int16" Value="1"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{2FF64491-AF82-454D-8597-A96D21E7CE53}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Cuica1_103BPM4-4_8M" ID="{DE785151-1567-44A4-B983-ABEB199642E3}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974904047"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica2_103BPM4-4_8M" ID="{9EC44150-9100-4F99-98F2-42B30E0C0829}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834983219"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica3_103BPM4-4_8M" ID="{C3EE6DB4-29C0-4E47-8310-B7F0D088CF55}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica3_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="72273131"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica4_103BPM4-4_8M" ID="{C60889BA-19F0-4CFD-B7F9-3B8D9D57CE71}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica4_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="403523849"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica2_103BPM4-4_8M_01" ID="{BAD04B1B-7A45-4F96-9ADD-B18256F62C6A}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834983219"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica1_103BPM4-4_8M_01" ID="{7DF8DD70-ADF9-4E92-B01B-3601F9B7F4D4}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974904047"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica4_103BPM4-4_8M_01" ID="{692FE061-3517-4019-8B69-7EEC3BABE0BF}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica4_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="403523849"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica3_103BPM4-4_8M_01" ID="{F04799E4-DC43-4D6D-BD0D-56F19249F465}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica3_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="72273131"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica3_103BPM4-4_8M_02" ID="{C5B4835A-EEE1-4E4E-9AE5-0AC6ACB2D26D}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica3_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="72273131"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica1_103BPM4-4_8M_02" ID="{3BF00ABF-0286-40B1-9B0A-8C5EF911999A}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974904047"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica2_103BPM4-4_8M_02" ID="{10731F03-2E6D-4263-80D6-F7CF3EFAF284}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834983219"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica4_103BPM4-4_8M_02" ID="{54FF3BBB-B757-4477-B628-9D30BAA7679D}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica4_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="403523849"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica2_103BPM4-4_8M_03" ID="{EB2CBF00-DA60-4E13-B3CA-4DABE09FB06A}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834983219"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica1_103BPM4-4_8M_03" ID="{C9AF8AD7-24C5-423B-82ED-FAEDF10FC7DB}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974904047"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica4_103BPM4-4_8M_03" ID="{DBEEE44C-6116-4714-9C7D-6AB286CBBC4E}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica4_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="403523849"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Cuica3_103BPM4-4_8M_03" ID="{1DBB4119-0F15-494C-9052-221DF9368FAC}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Cuica3_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="72273131"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Pausa" ID="{D3D118D9-0A3D-4F51-B058-04590A72F717}"/>
+																<StateGroupInfo Name="" ID="{2AB7B287-2DFA-4034-80DF-F7CBFFD775B8}" ShortID="855895919">
+																	<PropertyList>
+																		<Property Name="MusicSyncType" Type="int32" Value="3"/>
+																	</PropertyList>
+																</StateGroupInfo>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="None" ID="{F15A0075-D786-445C-9D37-8673B71A005D}"/>
+																<CustomState Name="" ID="{5E4CC756-0C17-4447-A91E-5ED0F04F32CC}" ShortID="714987341"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Pausa_On" ID="{9DBFA174-F380-46AE-ACB2-E6AA3AC3E269}"/>
+																<CustomState Name="" ID="{305FDE38-7810-43F1-9567-83130D8B7BE4}" ShortID="256295332">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Pausa_Off" ID="{71D65B1A-F598-4E8C-9E41-2A9FBBD37EA8}"/>
+																<CustomState Name="" ID="{C13E2B81-B3D1-4C79-BDDD-0D5FF756B47B}" ShortID="823103950"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{070F0BBD-99CD-487F-9825-164B702E89BD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Cuica1_103BPM4-4_8M" ID="{ACD99125-2C91-4621-BD51-4E616CF3A6C2}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica1_103BPM4-4_8M" ID="{DE785151-1567-44A4-B983-ABEB199642E3}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica2_103BPM4-4_8M" ID="{8CD3DFE5-32E2-48AB-9653-5DC2E1B9907A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="13980.5825242718"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica2_103BPM4-4_8M" ID="{9EC44150-9100-4F99-98F2-42B30E0C0829}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica3_103BPM4-4_8M" ID="{C34D15DD-E59B-4453-BADA-92B8D4EE3B1A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="4660.19417475728"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica3_103BPM4-4_8M" ID="{C3EE6DB4-29C0-4E47-8310-B7F0D088CF55}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica4_103BPM4-4_8M" ID="{9E19602E-5F73-4F75-AD96-EAE4DFEF085C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica4_103BPM4-4_8M" ID="{C60889BA-19F0-4CFD-B7F9-3B8D9D57CE71}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+															<MusicTrackSequence Name="" ID="{8BCD89C8-E890-4F46-AF60-ABAF0D3F63B2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Cuica2_103BPM4-4_8M_01" ID="{E98CF031-291D-4D03-96FF-E7741FA1373C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica2_103BPM4-4_8M_01" ID="{BAD04B1B-7A45-4F96-9ADD-B18256F62C6A}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica1_103BPM4-4_8M_01" ID="{6D44E353-3EA8-4682-A0B9-51721EC8B779}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="4660.19417475728"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica1_103BPM4-4_8M_01" ID="{7DF8DD70-ADF9-4E92-B01B-3601F9B7F4D4}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica4_103BPM4-4_8M_01" ID="{20DE2ED2-A8A5-45F8-B76C-599D36C393CB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica4_103BPM4-4_8M_01" ID="{692FE061-3517-4019-8B69-7EEC3BABE0BF}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica3_103BPM4-4_8M_01" ID="{07B0DF4D-2123-45D5-AE99-8952A67B21DE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="13980.5825242718"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica3_103BPM4-4_8M_01" ID="{F04799E4-DC43-4D6D-BD0D-56F19249F465}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+															<MusicTrackSequence Name="" ID="{3456C75E-05B6-4319-A882-419CA8A32EBF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Cuica3_103BPM4-4_8M_02" ID="{1E97FEA2-7F40-4A33-955E-BF5ECE947C42}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica3_103BPM4-4_8M_02" ID="{C5B4835A-EEE1-4E4E-9AE5-0AC6ACB2D26D}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica1_103BPM4-4_8M_02" ID="{027F791D-1EB5-47D7-A138-11C96ACD7816}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="13980.5825242718"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica1_103BPM4-4_8M_02" ID="{3BF00ABF-0286-40B1-9B0A-8C5EF911999A}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica2_103BPM4-4_8M_02" ID="{53713105-160A-4118-8AD3-5775E264104C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica2_103BPM4-4_8M_02" ID="{10731F03-2E6D-4263-80D6-F7CF3EFAF284}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica4_103BPM4-4_8M_02" ID="{6914CF03-F9DD-48AE-BD35-81AA4D2BCF39}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="4660.19417475728"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica4_103BPM4-4_8M_02" ID="{54FF3BBB-B757-4477-B628-9D30BAA7679D}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+															<MusicTrackSequence Name="" ID="{CEBDBD41-AAE1-4B68-8B49-F9B71C979F53}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Cuica2_103BPM4-4_8M_03" ID="{24E36340-AC8C-4A83-81A5-9935C0CBE79C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="4660.19417475728"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica2_103BPM4-4_8M_03" ID="{EB2CBF00-DA60-4E13-B3CA-4DABE09FB06A}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica1_103BPM4-4_8M_03" ID="{DCAB192A-6A60-4375-A2AB-E9C99B1759EC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica1_103BPM4-4_8M_03" ID="{C9AF8AD7-24C5-423B-82ED-FAEDF10FC7DB}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica4_103BPM4-4_8M_03" ID="{0B4B0AD2-E9F0-4919-8F62-6DC53494FADB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica4_103BPM4-4_8M_03" ID="{DBEEE44C-6116-4714-9C7D-6AB286CBBC4E}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Cuica3_103BPM4-4_8M_03" ID="{10EC496A-5D51-469A-A021-9BC3EF6DDDA4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4660.20408163265"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="13980.5825242718"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Cuica3_103BPM4-4_8M_03" ID="{1DBB4119-0F15-494C-9052-221DF9368FAC}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{9A9F7ABC-EF26-4C6E-BC44-193046FCA0A9}"/>
+													<MusicCue Name="Exit Cue" ID="{EDCA9EAA-719F-4D4B-8E30-EB7208CFC16C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18640.7766990291"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+												<ObjectList Name="Stingers">
+													<MusicStinger Name="" ID="{1E4B9DE8-929B-4574-AF6E-EEB6AA5335BD}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{86D59E3E-BFD5-45D1-955A-F0FC942F46B8}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{2CC28B5D-D8B7-45F5-B481-0E056D708D3E}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" ShortID="694673346">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="101"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{B2A6A8B6-7F32-4BFB-B9CA-323E818BE506}" ShortID="144739537">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{F136F1DE-E7B5-481A-8AFF-C70D5E2A1DB9}" ShortID="207251588">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Mx_McKongo_Segment_103" ID="{D8451300-158B-479C-98FC-7B9D7BE1C120}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{355DA7B7-563A-47E2-9BD9-045B59D7BDF9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{AC4ABD38-4EFB-4EE8-A9C3-DFA0FF32144C}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Mx_McKongo_Segment_103" ID="{D8451300-158B-479C-98FC-7B9D7BE1C120}" ShortID="185147166">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="EndPosition" Type="Real64" Value="19805.8351495938"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="103"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{939013C8-A0CF-45EC-891F-CA383BFBC1CF}" ShortID="680638798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{39659F14-29B5-4D86-A033-5C3E81995640}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{1A79CB8D-2C5D-4679-BDCB-F78C65B81890}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Base_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74889908"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{D410FA64-E27F-46F4-9CE4-E0D74838F909}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{85BE43DA-47BF-4FD6-ACA8-FDB7416DE2A3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{1A79CB8D-2C5D-4679-BDCB-F78C65B81890}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{37DD8537-73C9-4DFD-9A43-B4493CDD82AA}" ShortID="551830515">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{68E9C68E-8E1E-4E63-BE49-7F5866BCA637}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{0332B07C-DC19-4C63-945F-D1B0BA47E50B}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Wood_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="46179992"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{5C1CD70E-D3B5-40BD-95E8-F29AB9BB21ED}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{B56DFB1B-CFFF-4CE7-82F5-6D86FB142D46}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{0332B07C-DC19-4C63-945F-D1B0BA47E50B}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{3C51B58B-D12C-44E0-82C8-31BEED14FF5F}" ShortID="882361869">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="MusicTrackType" Type="int16" Value="1"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{B70E3E13-CA24-45C5-9AA2-330113AD14E7}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{D0E746D0-8B9B-46FD-AC4A-E1B61A97265A}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Triangulo1_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1005393918"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{C1A14865-21D7-40E1-A0B7-7AC843FD78C0}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Triangulo2_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="949143598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{04191EAC-09C2-4606-AD61-6AC8B6A503A0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{D42EBABA-B463-4C00-BB50-1AC7901E2B07}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{D0E746D0-8B9B-46FD-AC4A-E1B61A97265A}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{5E25A017-9E4C-4074-A6A2-F1543E4118E3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{C1A14865-21D7-40E1-A0B7-7AC843FD78C0}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+															<MusicTrackSequence Name="" ID="{E9298A1B-4269-40E0-93A3-E38FB2A23613}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{7C206937-E64D-4BD9-AB3C-09A9AFDB45E3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="9320.38834951456"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo1_103BPM4-4_8M" ID="{D0E746D0-8B9B-46FD-AC4A-E1B61A97265A}"/>
+																		</MusicClip>
+																		<MusicClip Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{5B561E1A-9FF0-4AF1-A7E7-9401CE38152A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9320.40816326531"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Triangulo2_103BPM4-4_8M" ID="{C1A14865-21D7-40E1-A0B7-7AC843FD78C0}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{9C4664E7-3D0C-4AAE-93FF-72DEEC434E73}"/>
+													<MusicCue Name="Exit Cue" ID="{8C574321-6407-48DA-ADD0-F299415C0A56}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18640.7766990291"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+												<ObjectList Name="Stingers">
+													<MusicStinger Name="" ID="{198618F3-C0C2-4C99-A272-0A66F52D4ED3}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{E30C3C0D-4A9E-4122-A3B8-D0AD8B74AFCC}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{959F5E6F-F056-4811-9930-8A54ACA3D24D}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" ShortID="49613970">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="101"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{A955FC83-F16A-4CB0-AC9B-19F21622B785}" ShortID="450446860">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{9EFE73CD-4E46-4F3D-8022-E9ECBEFE7354}" ShortID="635542517">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Mx_McKongo_Segment_103" ID="{E0F87609-33D4-4515-8353-A296363D64D0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{387D864B-63D0-4B10-BDA7-1DD34EB3844F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{7B865C6C-B47F-420E-812D-9819EF997523}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Mx_McKongo_Segment_103" ID="{E0F87609-33D4-4515-8353-A296363D64D0}" ShortID="784854217">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="EndPosition" Type="Real64" Value="19805.8351495938"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="103"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{81ED1306-F0F8-4911-9DC2-E3FBA50D8033}" ShortID="692803406">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{1FC73FD2-E846-47A6-B58D-5A44C148260C}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{39648408-9C63-477A-AEEF-886D5A0E85FF}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Base_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74889908"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{7600DE5E-353B-4D57-9EC3-04862C02FEDD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{EEDD0AC7-D113-428D-B52F-0D0A7762B060}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{39648408-9C63-477A-AEEF-886D5A0E85FF}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{40584042-5069-4417-A57F-AD5463360CF1}" ShortID="206733602">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="11"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{66889417-AF08-47DB-96F5-46D2CA8F1F9B}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{308F3A9D-A1E4-4789-8845-8639ED19B7AF}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Wood_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="46179992"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{48A56883-BAFE-40EC-99E0-00A62446B056}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{2B89FDBE-7FC1-41C7-A09F-79D234F2B064}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Wood_103BPM4-4_8M" ID="{308F3A9D-A1E4-4789-8845-8639ED19B7AF}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{E364BB7B-3434-4772-993B-5A59D7E7EE77}"/>
+													<MusicCue Name="Exit Cue" ID="{CAC0B60C-EDBA-41F8-99C4-2B590023FBEA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18640.7766990291"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+												<ObjectList Name="Stingers">
+													<MusicStinger Name="" ID="{B69E3546-8A31-473A-90DE-942F1E255BA3}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{EB1363FE-063F-49EF-AC2B-5C56EE4535DA}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{3E160949-2EF7-4FF1-8764-DCADBD20A41C}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Mx_PL00" ID="{46F3273F-7145-49EA-8B09-A048141ECCA2}" ShortID="950985139">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="101"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{4E494D7A-967F-4E2D-ADB8-A12602D3F014}" ShortID="189155979">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{A67F1A78-9A6D-425A-A016-BBC9F95FEAB7}" ShortID="721020373">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Mx_McKongo_Segment_103" ID="{A850AA35-C056-489D-8D92-E2D8563A9487}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{443EBFB9-3339-4486-94A6-A966F2858E46}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{3DCE7835-BB9F-44BC-8176-1BA4169E2812}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Mx_McKongo_Segment_103" ID="{A850AA35-C056-489D-8D92-E2D8563A9487}" ShortID="858710153">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="EndPosition" Type="Real64" Value="19805.8351495938"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="103"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{9146C7A5-7981-43AF-BA62-E27FAB51507B}" ShortID="442313684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{A86D213A-27D3-47D4-A7A2-BBA77C75C45C}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{1AF67D6B-33D1-41AF-BE81-68FCD23B8C64}">
+															<Language>SFX</Language>
+															<AudioFile>Mx_MacKong_Base_103BPM4-4_8M.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74889908"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{C8944124-FAAB-4B7C-8407-A137F64FBA6E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{4D7C6D00-5E20-4C71-AB8B-2F154A7CAE8E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18640.7936507937"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Mx_MacKong_Base_103BPM4-4_8M" ID="{1AF67D6B-33D1-41AF-BE81-68FCD23B8C64}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{FBB3D7AB-C385-4E55-A2F0-877806F193C8}"/>
+													<MusicCue Name="Exit Cue" ID="{DFB8940D-0E75-4E0A-A6A9-2F5415FE8436}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18640.7766990291"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+												<ObjectList Name="Stingers">
+													<MusicStinger Name="" ID="{288E3D88-0FC9-4776-9AD3-193B74F72125}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{012F70D1-5E90-4ED0-B5B6-25680F0AD0EF}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+													<MusicStinger Name="" ID="{72627130-BEC7-46EE-AD3A-4E08C7E57FB7}">
+														<PropertyList>
+															<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="Segment">
+																<ObjectRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicStinger>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Arguments">
+									<PluginInnerObject Name="" ID="{D8FC095F-D398-42ED-A7A9-C48FFC169777}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
+										<ReferenceList>
+											<Reference Name="Argument">
+												<ObjectRef Name="Player_Life" ID="{2D827CA8-4429-4A69-9E78-830C9CD4C6CE}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+								</ObjectList>
+								<ObjectList Name="Entries">
+									<MultiSwitchEntry Name="" ID="{0DD451AD-CA64-4F00-82F3-8B46237033A8}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mx_PL00" ID="{46F3273F-7145-49EA-8B09-A048141ECCA2}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{692F029E-DFA5-49B7-A29D-8E78FB189536}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="PL_00" ID="{1941AE98-5295-4E8C-8FC7-C6B6C706893B}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{A5E72DF1-935D-4FE5-8705-0E9744542D6E}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mx_PL01" ID="{A9873555-F723-4C18-BFEB-1F82A29F156A}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{EA43056E-C1AD-4B6D-AFD2-079C46AB7FD6}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="PL_01" ID="{F9F0A215-5D86-470A-AE7D-5F57EC8D92E7}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{9B2D8BF4-66E2-4BF8-95D7-2BC824A2E9B8}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mx_PL02" ID="{AFF74395-B458-4B5D-8DCC-7595CEB8FB1F}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{606D1CFC-4F92-453B-BCB5-08FC497C327C}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="PL_02" ID="{06ADD37E-267B-4E2D-ACBF-E259F15C1156}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{EBCA6AAC-3163-40E3-82B2-62383737AAAC}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mx_PL03" ID="{EDDD7EF7-C03B-41C8-8401-E8A1880E201D}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{9525895E-3DB1-465F-840A-73B6F0663E86}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="PL_03" ID="{8FA5CDB6-666D-46D0-98F2-C96E36124706}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{0760EF2B-B4A3-4F0C-B4C0-0F6E684DBD2C}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mx_PL03" ID="{EDDD7EF7-C03B-41C8-8401-E8A1880E201D}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{77869E60-BB1B-41C5-8256-8DB15B56CAE4}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="None" ID="{0408D741-8FE0-435A-8922-BC40064703DD}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSwitchContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Player_Life" ID="{2D827CA8-4429-4A69-9E78-830C9CD4C6CE}"/>
+								<StateGroupInfo Name="" ID="{F34781FA-6C50-4585-BC28-F47EC6FC5832}" ShortID="529023699"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="Pausa" ID="{D3D118D9-0A3D-4F51-B058-04590A72F717}"/>
+								<StateGroupInfo Name="" ID="{DB07321C-19DC-479C-B0CE-1F27B01FFA58}" ShortID="125328914"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{0408D741-8FE0-435A-8922-BC40064703DD}"/>
+								<CustomState Name="" ID="{8D961433-47C4-408B-B70F-CAEA7F6BDE69}" ShortID="860658754"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{F15A0075-D786-445C-9D37-8673B71A005D}"/>
+								<CustomState Name="" ID="{E10491AC-4C71-4ADB-8A92-0A68A48D6D6E}" ShortID="235372239"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Pausa_On" ID="{9DBFA174-F380-46AE-ACB2-E6AA3AC3E269}"/>
+								<CustomState Name="" ID="{E7FA2E85-EBE4-413B-A262-6123782E686D}" ShortID="946581786">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+										<Property Name="Volume" Type="Real64" Value="-3"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="PL_03" ID="{8FA5CDB6-666D-46D0-98F2-C96E36124706}"/>
+								<CustomState Name="" ID="{75498DF4-C437-4052-9A91-EC9251C0748A}" ShortID="215851933"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="PL_01" ID="{F9F0A215-5D86-470A-AE7D-5F57EC8D92E7}"/>
+								<CustomState Name="" ID="{A62329CF-1199-4163-AFD8-9866FF8B673D}" ShortID="1056953336">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-4"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="PL_02" ID="{06ADD37E-267B-4E2D-ACBF-E259F15C1156}"/>
+								<CustomState Name="" ID="{FC2F062B-8CE4-4352-8D04-80529EFBB9C5}" ShortID="104150174">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-2"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="PL_00" ID="{1941AE98-5295-4E8C-8FC7-C6B6C706893B}"/>
+								<CustomState Name="" ID="{3610BB51-5A4B-434E-956E-EF852A905624}" ShortID="1021741815">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Pausa_Off" ID="{71D65B1A-F598-4E8C-9E41-2A9FBBD37EA8}"/>
+								<CustomState Name="" ID="{BAC8BFDF-AEFA-4269-B86A-B149ED0CF068}" ShortID="468041058"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<PluginInnerObject Name="" ID="{7B6449DD-7F62-4E40-A58E-2B8A33BE6286}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
+								<ReferenceList>
+									<Reference Name="Argument">
+										<ObjectRef Name="Mx_Nivel_ST" ID="{54C16DE1-D47A-4A2E-AACD-A8B4CC89372B}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+									</Reference>
+								</ReferenceList>
+							</PluginInnerObject>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<MultiSwitchEntry Name="" ID="{534EEB53-3BD7-4A51-9594-E5A6745C5C18}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="Mx_Gameplay_SW" ID="{332635DE-0B1C-40F0-BCCA-8BF70DF02C33}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{06B0CF58-9455-4503-AAFF-68DFAF432183}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="GamePlay" ID="{3CB31076-1180-42CE-878C-7B6F8CDC8069}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+							<MultiSwitchEntry Name="" ID="{50BDCE34-B153-472A-B513-D872D62DACD4}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="Mx_Lose" ID="{C7EA6BDD-8A0A-4FB5-9759-6093C81AC3AC}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{6A0B4079-192D-427F-BA08-683BBA58DC20}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="Lose" ID="{A86E9154-81EE-4F46-8BF0-1FC725E7A10C}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+							<MultiSwitchEntry Name="" ID="{4EA8E989-1524-4E1C-B0FD-4D71C2FD5E34}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="Mx_Win" ID="{0AE31A12-ACB1-408D-AECC-00370BAC54EA}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{A6060437-17F1-4AF8-933C-5323196CC0BF}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="Win" ID="{FD9A36A9-9D26-4600-908B-0DBB0FCA6524}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+							<MultiSwitchEntry Name="" ID="{E4D91C75-4202-482B-BCC4-DABD530B54B4}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="Mx_Gameplay_SW" ID="{332635DE-0B1C-40F0-BCCA-8BF70DF02C33}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{C376ADD6-00D8-4EFF-A082-40E3AD549433}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="None" ID="{7F78AB4D-E9F0-4957-A09B-24EAB899CB1F}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+				<Folder Name="Mx_Stingers" ID="{FB1F95F2-9D08-4FF0-9764-5FD0A9AA3EC4}" ShortID="793361489">
+					<ChildrenList>
+						<MusicSegment Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{CB7E794B-6C09-4BBA-A854-366B681729B0}" ShortID="680019061">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="103"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2.4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{1467B957-7E16-4FDB-95F4-F75AF9A167BB}" ShortID="847140707">
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="PL_03" ID="{8FA5CDB6-666D-46D0-98F2-C96E36124706}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Player_Life" ID="{2D827CA8-4429-4A69-9E78-830C9CD4C6CE}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0DFC6FE2-FD0B-4109-AA62-840F65C26354}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{E604E5C5-C6D4-4EBA-914A-8517FA3D0330}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{C705B4FA-4598-4DB3-9E03-AB93C9A4CD2B}">
+											<Language>SFX</Language>
+											<AudioFile>Mx_MacKong_Sting_Cuica_103BPM_4-4_1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237850088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{1F595954-FBC3-4997-945C-2A2147BF3282}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{54A0309C-7A0D-4CBA-8138-A7E7099B9644}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="2330.11337868481"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mx_MacKong_Sting_Cuica_103BPM_4-4_1M" ID="{C705B4FA-4598-4DB3-9E03-AB93C9A4CD2B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C4E43FB9-AA67-4324-B251-1BC40EC0BD6C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-2.39993</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2.33011337868481</XPos>
+																				<YPos>-2.39993</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+												<ReferenceList>
+													<Reference Name="TrackSequenceSwitch">
+														<ObjectRef Name="PL_02" ID="{06ADD37E-267B-4E2D-ACBF-E259F15C1156}" WorkUnitID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}"/>
+													</Reference>
+												</ReferenceList>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<MusicCue Name="Entry Cue" ID="{10630D38-2F20-4789-8947-778601E69A00}"/>
+									<MusicCue Name="Exit Cue" ID="{3C9430F3-49D5-4DB8-AA11-38899AB28FE2}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+										</PropertyList>
+									</MusicCue>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{2B09168C-0122-4F07-9D3D-174D2875194E}" ShortID="933220357">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="103"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{13445D03-A3A3-4BEA-BA9A-11B1AB50AD5C}" ShortID="751656770">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{0B712D5A-D9DF-45F9-91E4-B5406FDB27DF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{E5919D8D-2201-4741-B51B-6E0AF48D425A}">
+											<Language>SFX</Language>
+											<AudioFile>Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="8339042"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{5F07A22E-F249-4387-9E48-5EBB48F24717}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{D3AE0432-6A92-4082-9DF2-0ABFEF41A8AF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="2330.11337868481"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mx_MacKong_Sting_Triangulo_103BPM_4-4_1M" ID="{E5919D8D-2201-4741-B51B-6E0AF48D425A}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<MusicCue Name="Entry Cue" ID="{66923DA3-B0A5-4202-BBA1-138E8D4AAE60}"/>
+									<MusicCue Name="Exit Cue" ID="{AFBB973E-240C-497C-83AD-98C0EA0BE5A8}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+										</PropertyList>
+									</MusicCue>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{169C1751-878B-4DFC-BAF3-55B7918B46E2}" ShortID="722099911">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="103"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{49A9B763-A86F-4240-935A-39A24B6430F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{2C28D3B7-CAC4-44A8-9A5C-D39CCEFA4645}" ShortID="1012040492">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mx_AudioBus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3A6545F1-E43C-4C0A-AA6F-7C05E77CAA36}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{35F42DF4-C4DC-4A40-B80D-98A61450F5C0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{2984FFFD-0054-47C4-8930-334ADF238E1B}">
+											<Language>SFX</Language>
+											<AudioFile>Mx_MacKong_Sting_Wood_103BPM_4-4_2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="326946621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{716E4E1A-931C-40AB-96E0-958AADECACC1}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{E017804F-AAB8-4552-B99C-6AE232EBFCAD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="1165.0566893424"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mx_MacKong_Sting_Wood_103BPM_4-4_2B" ID="{2984FFFD-0054-47C4-8930-334ADF238E1B}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<MusicCue Name="Entry Cue" ID="{08AF87BC-EECB-4DFB-8E58-67E000A49643}"/>
+									<MusicCue Name="Exit Cue" ID="{DBC812BC-0554-41F9-AC7C-0001FC6675BA}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+										</PropertyList>
+									</MusicCue>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

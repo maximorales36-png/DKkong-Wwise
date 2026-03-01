@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5A30BA4-7DCF-4103-B7F2-FC790C751CC7}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D5A30BA4-7DCF-4103-B7F2-FC790C751CC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{68969C9A-5736-4569-8AFD-DB72A594F2DD}" ShortID="965938402">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Sfx_Jump" ID="{062B0F4B-418A-4D3D-9C99-5E76A658E0C0}">
+							<ChildrenList>
+								<Action Name="" ID="{87B24672-6C9B-4279-93A1-50E7E361E709}" ShortID="514985677">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAMEVideo_Gem Pick Up_Rogue Waves_8-Bit Legend_07" ID="{77057BA1-83A6-4006-8037-9B666D0312C4}" WorkUnitID="{910E7136-29BD-4F1C-8685-B8C9FB222328}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Hit" ID="{A0CB200E-30A6-4F9E-9ABD-09BE16FB2C9B}">
+							<ChildrenList>
+								<Action Name="" ID="{CC8E3569-AE13-4E6A-A7E2-CFCA04DDEA0D}" ShortID="731242106">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAMEVideo_Creature Birds_Rogue Waves_8-Bit Legend" ID="{98189006-73A8-4CE0-AB01-7F7E4F94308A}" WorkUnitID="{910E7136-29BD-4F1C-8685-B8C9FB222328}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Win" ID="{754654AD-EB2D-4929-8885-60D11A429F32}">
+							<ChildrenList>
+								<Action Name="" ID="{59DB966B-9BF3-459B-A9EB-AEDF1A35C71E}" ShortID="896861658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UIAlert_Confirm Access Granted 02_JSE_FI" ID="{773E4F2F-AF1C-4864-ACBE-C28D94B4CE03}" WorkUnitID="{910E7136-29BD-4F1C-8685-B8C9FB222328}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_pasos" ID="{02177E2B-964E-47A9-A6E7-60BC8ADD9B1E}">
+							<ChildrenList>
+								<Action Name="" ID="{53A1295D-71FE-4B0C-8403-95CE0B63EAD3}" ShortID="4548522">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pasos" ID="{E6388BB6-EAFD-4374-859B-5199808D6E84}" WorkUnitID="{910E7136-29BD-4F1C-8685-B8C9FB222328}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mx" ID="{C15A505D-7126-464F-B966-371E615F64A3}" ShortID="46008658">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Mx_Nivel_SW" ID="{D0376844-DFB8-4045-AE81-4947664FD1EE}">
+							<ChildrenList>
+								<Action Name="" ID="{A3DF57CA-712C-40BD-B241-0973251AC352}" ShortID="929455968">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mx_Nivel_SW" ID="{1AA5BF1C-7237-4598-A4E3-2F15AFADB2E1}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Mx_Nivel_SW" ID="{2D634308-A6B4-4BF7-AAFD-1FAF09AF30E4}">
+							<ChildrenList>
+								<Action Name="" ID="{CCF2EAF6-ADD8-4088-A766-2EC0BFFBA535}" ShortID="822393511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mx_Nivel_SW" ID="{1AA5BF1C-7237-4598-A4E3-2F15AFADB2E1}" WorkUnitID="{52AC77F6-28D0-4245-90DD-2AF15348F61B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

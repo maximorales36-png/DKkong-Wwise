@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}" SchemaVersion="133">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1BE0FD68-B6A7-4F58-A1A5-1E456AE63907}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Mx_Nivel_ST" ID="{54C16DE1-D47A-4A2E-AACD-A8B4CC89372B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{7F78AB4D-E9F0-4957-A09B-24EAB899CB1F}"/>
+						<State Name="GamePlay" ID="{3CB31076-1180-42CE-878C-7B6F8CDC8069}"/>
+						<State Name="Win" ID="{FD9A36A9-9D26-4600-908B-0DBB0FCA6524}"/>
+						<State Name="Lose" ID="{A86E9154-81EE-4F46-8BF0-1FC725E7A10C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pausa" ID="{D3D118D9-0A3D-4F51-B058-04590A72F717}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{F15A0075-D786-445C-9D37-8673B71A005D}"/>
+						<State Name="Pausa_On" ID="{9DBFA174-F380-46AE-ACB2-E6AA3AC3E269}"/>
+						<State Name="Pausa_Off" ID="{71D65B1A-F598-4E8C-9E41-2A9FBBD37EA8}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Player_Life" ID="{2D827CA8-4429-4A69-9E78-830C9CD4C6CE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{0408D741-8FE0-435A-8922-BC40064703DD}"/>
+						<State Name="PL_01" ID="{F9F0A215-5D86-470A-AE7D-5F57EC8D92E7}"/>
+						<State Name="PL_02" ID="{06ADD37E-267B-4E2D-ACBF-E259F15C1156}"/>
+						<State Name="PL_03" ID="{8FA5CDB6-666D-46D0-98F2-C96E36124706}"/>
+						<State Name="PL_00" ID="{1941AE98-5295-4E8C-8FC7-C6B6C706893B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

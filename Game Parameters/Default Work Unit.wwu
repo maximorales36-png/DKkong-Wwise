@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{542F9408-C9D5-43D9-AFE8-B6DE4E5C5204}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{542F9408-C9D5-43D9-AFE8-B6DE4E5C5204}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Vol_Mx" ID="{1FB44714-84BC-44E6-A70D-CDAD59F3EE8C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Vol_Sfx" ID="{88DB602E-F6A1-43A1-A7F5-24467B4B7EFF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
