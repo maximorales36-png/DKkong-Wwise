@@ -1,0 +1,9 @@
+# Wwise generated files
+.cache/
+.vs/
+GeneratedSoundBanks/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
