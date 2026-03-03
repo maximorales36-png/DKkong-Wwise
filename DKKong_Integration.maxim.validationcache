@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="133">
-	<ValidationCacheItem File="C:\Users\maxim\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1771841487" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1772391355" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Attenuations\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Attenuations\Factory Attenuations.wwu" DateLow="1770676126" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Busses\Default Work Unit.wwu" DateLow="1771717356" DateHigh="0"/>
@@ -12,7 +12,7 @@
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1770676126" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Devices\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\DKKong_Integration.maxim.wsettings" DateLow="1771841487" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\DKKong_Integration.maxim.wsettings" DateLow="1772391355" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\DKKong_Integration.wproj" DateLow="1770722238" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\maxim\Documents\WwiseProjects\DKkong-Wwise\Effects\Default Work Unit.wwu" DateLow="1770679913" DateHigh="0"/>
